@@ -20,7 +20,6 @@ const updateStorage = () => {
   paragraphs = document.querySelectorAll("p");
   const array = [];
   paragraphs.forEach((paragraph) => {
-    console.log(paragraph.innerText);
     if (paragraph.textContent) {
       array.push(paragraph.textContent);
     }
